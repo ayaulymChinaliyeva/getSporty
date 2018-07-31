@@ -1,0 +1,64 @@
+<!---developed by Ayaulym Chinaliyeva--->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ordering Page</title>
+	<link rel="stylesheet" type="text/css" href="orderDesign.css">
+	<link rel="icon" href="icon.png">
+</head>
+<body>
+	<div class="container">
+<h1 class="brand">GetSporty Shop</h1>
+<div class="wrapper">
+	<div class="company-info">
+<h3>By Nurmukhammed Zhakash</h3>
+	<ul>
+	<li>+7-747-681-91-01</li>
+	<li>Zhamakayev st. 145</li>
+	<li>new11aclass@gmail.com</li>
+</ul>
+</div>
+<div class="contact">
+	<h3>Make an order!</h3>
+	<form action="http://localhost/getSporty/connectToDb.php" method="post">
+		<p>
+			<label>Name</label>
+			<input type="text" name="name">
+		</p>
+		<p>
+			<label>Last name</label>
+			<input type="text" name="lname">
+		</p>
+		<p>
+			<label>Phone number</label>
+			<input type="text" name="phone">
+		</p>
+		<p>
+			<label>E-mail address</label>
+			<input type="email" name="email">
+		</p>
+		<p>
+			<label>Item category to order</label>
+			<select>
+				<option>Trainers</option>
+				<option>Shorts</option>
+				<option>T-Shirts</option>
+				<option>Special underwear</option>
+			</select>
+		</p>
+		<p>
+			<label>Item's serial number</label>
+			<input type="text" name="serial">
+		</p>
+		<p>
+			<button class="full">Submit</button>
+		</p>
+	</form>
+</div>
+</div>
+</div>
+</body>
+</html>
